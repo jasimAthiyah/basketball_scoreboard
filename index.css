@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #1b244a;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h3 {
+  margin: 30px 0px 0px 0px;
+  font-family: "Verdana";
+  color: #eeeeee;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #f94f6d;
+  font-size: 90px;
+}
+
+.scoreboard {
+  background-color: #080001;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 0px 20px 0px;
+}
+
+button {
+  background-color: #1b244a;
+  border-color: #9aabd8;
+  color: #9aabd8;
+  /* rounded corners */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 2px;
+}
+
+.restart_game {
+  /* to center align a button  */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
